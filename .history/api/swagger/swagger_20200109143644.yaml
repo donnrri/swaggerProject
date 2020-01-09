@@ -20,7 +20,7 @@ produces:
   - text/plain
 paths:
   /recipes:
-    x-swagger-router-controller: recipie
+    x-swagger-router-controller: recipe
     get:
       description: Return all the recipes
       operationId: getRecipes
